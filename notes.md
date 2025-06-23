@@ -56,3 +56,27 @@ print(random_element) // Banana
 random.shuffle(my_list)
 print(my_list) // ['banana', 'cherry', 'apple']
 
+Strings Fundamentals
+    Concatenating Strings & Variables
+name = 'Zen'
+print('My name is', name)
+print('My name is ' + name)
+
+Type Casting
+print("Hello" + 42) // TypeError
+print("Hello" + str(42)) // Hello 42
+total = 35
+user_val = '26'
+total = total + user_val // TypeError
+total = total + int(user_val) // 61
+
+F-Strings
+first_name = 'Zen'
+last_name = 'Coder'
+age = 27
+print(f"My name is {first_name} {last_name} and I am {age} years old.)
+
+Built-In String Methods
+x = 'hello world'
+print(x.title()) // "Hello World"
+
